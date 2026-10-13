@@ -1,4 +1,4 @@
-/** Typed English and Chinese copy owned by the Electron shell. */
+/** Typed English, Chinese, and Brazilian Portuguese copy owned by the Electron shell. */
 
 export const en = {
   application: 'Application',
@@ -179,17 +179,106 @@ export const zh = {
   mandatoryNotification: '返回应用确认安装并重启。',
 } as const satisfies DesktopMessages
 
+export const ptBR = {
+  application: 'Aplicativo',
+  aboutMenu: 'Sobre o DeepSeek Harness',
+  edit: 'Editar',
+  menuBar: 'Menu do aplicativo',
+  delete: 'Excluir',
+  undo: 'Desfazer',
+  redo: 'Refazer',
+  cut: 'Recortar',
+  copy: 'Copiar',
+  paste: 'Colar',
+  selectAll: 'Selecionar tudo',
+  startupFailed: 'O DeepSeek Harness está indisponível',
+  fatalSummary: 'O aplicativo não pôde ser iniciado ou foi encerrado inesperadamente.',
+  startupAddressInUse: 'Outra instância do DSH (como o dsh web ou o aplicativo desktop) está em execução. Elas não podem ser iniciadas ao mesmo tempo. Feche a outra instância do DSH em execução e reinicie.',
+  diagnosticTruncated: '… Detalhes do erro abreviados. O diagnóstico completo foi gravado no console do Electron.',
+  startupReinstallAdvice: 'Se os arquivos do aplicativo estiverem ausentes ou danificados, feche o aplicativo e reinstale-o. Suas tarefas são armazenadas separadamente.',
+  exitApplication: 'Sair',
+  restartApplication: 'Reiniciar',
+  recoveryOperationFailed: 'A operação de recuperação falhou',
+  disableThirdPartyPlugins: 'Desativar plugins de terceiros, fazer backup do profile patch e reiniciar',
+  checkUpdatesMenu: 'Verificar atualizações…',
+  updateCheckFailedTitle: 'Falha ao verificar atualizações',
+  updateCheckFailed: 'Não foi possível verificar atualizações. Tente novamente mais tarde.',
+  updateDownloadFailed: 'Não foi possível baixar a atualização. Tente novamente.',
+  updateInstallFailed: 'Não foi possível instalar a atualização. Tente novamente mais tarde.',
+  updateCheckNetworkFailed: 'Não foi possível verificar atualizações. Tente novamente mais tarde. A conexão foi interrompida. Verifique sua rede e tente novamente.',
+  updateDownloadNetworkFailed: 'Não foi possível baixar a atualização. Tente novamente. A conexão foi interrompida. Verifique sua rede e tente novamente.',
+  updateInstallNetworkFailed: 'Não foi possível instalar a atualização. Tente novamente mais tarde. A conexão foi interrompida. Verifique sua rede e tente novamente.',
+  unknownError: 'Erro desconhecido',
+  updateCheckTitle: 'Verificar atualizações',
+  updateCurrent: 'Nenhuma atualização disponível. Versão atual: V{version}',
+  updateChecking: 'Verificando atualizações…',
+  updateDownload: 'Baixar atualização',
+  updateDownloadedTitle: 'DeepSeek Harness v{version} baixado',
+  updateDownloadedDetail: 'O pacote de atualização foi baixado. Selecione “Instalar e reiniciar” para reiniciar o aplicativo e iniciar a instalação.',
+  updateClose: 'Fechar',
+  updateAcknowledge: 'OK',
+  updateLater: 'Atualizar depois',
+  updateDownloading: 'Baixando {percent}%…',
+  updateVerifying: 'Verificando os arquivos da atualização…',
+  updateInstalling: 'Preparando a reinicialização…',
+  updateRetry: 'Tentar atualizar novamente',
+  updateActiveTasks: 'Ainda há tarefas em andamento',
+  updateActiveTasksDetail: 'Reiniciar para atualizar pode interromper essas tarefas. Deseja continuar a atualização?',
+  updateStopTasks: 'Interromper tarefas e atualizar',
+  updateTasksChanged: 'Novas tarefas foram iniciadas. Revise a confirmação da atualização novamente.',
+  updateTasksUnavailable: 'O status das tarefas está indisponível. Tente atualizar novamente quando o workspace estiver pronto.',
+  updateStopFailed: 'Não foi possível interromper as tarefas com segurança. A atualização não foi instalada. Tente novamente mais tarde.',
+  updateTechnicalDetails: 'Ver detalhes técnicos',
+  updateTitle: 'Atualização do DeepSeek Harness',
+  updateAvailable: 'Há uma atualização disponível',
+  updateDetail: 'DeepSeek Harness {version}\n\nEsta versão inclui a versão correspondente do dsh. O aplicativo será reiniciado após a instalação.',
+  installAndRestart: 'Instalar e reiniciar',
+  later: 'Depois',
+  updateFailedTitle: 'Falha na atualização',
+  mandatoryTitle: 'Atualização obrigatória',
+  mandatoryDetail: 'Esta versão não tem mais suporte. Atualize para continuar. As tarefas existentes podem continuar em execução até você aprovar a reinicialização.',
+  mandatoryUnavailable: 'Não foi possível verificar o requisito de atualização. Tente novamente quando houver conexão.',
+  policyLoginTitle: 'Entrar no ambiente de teste',
+  policyLoginRequired: 'Esta é uma versão de teste. Verificar os requisitos de atualização exige login com o Feishu. Entrar não baixa nem instala uma atualização.',
+  policyLogin: 'Entrar com o Feishu',
+  policyLoginFailed: 'O login no ambiente de teste não foi concluído. Verifique sua conexão e tente novamente.',
+  policyLoginLoading: 'Carregando a página de login…',
+  mandatoryNoRelease: 'Nenhuma atualização aplicável está disponível. Verifique novamente ou entre em contato com o suporte.',
+  mandatoryRefresh: 'Verificar novamente',
+  mandatoryPage: 'Abrir página de download',
+  mandatoryCopy: 'Copiar endereço de download',
+  mandatoryPageFailed: 'Não foi possível abrir a página de download. Copie o endereço abaixo e abra-o no navegador.',
+  mandatoryActionFailed: 'A ação de atualização falhou. Tente novamente; o requisito de atualização continua ativo.',
+  mandatoryReady: 'Atualização pronta',
+  mandatoryVersion: 'V{version}',
+  mandatoryReadyDetail: 'Instalar a atualização reiniciará o aplicativo.',
+  mandatoryDeferred: 'As tarefas existentes podem continuar em execução. Atualize para continuar usando o aplicativo.',
+  mandatoryContinue: 'Continuar instalando a atualização',
+  mandatoryInspecting: 'Verificando tarefas…',
+  mandatoryStopping: 'Interrompendo com segurança as tarefas no aplicativo.',
+  mandatoryRestarting: 'O aplicativo será reiniciado em instantes. Aguarde.',
+  mandatoryDownloadFailed: 'Não foi possível baixar ou preparar os arquivos da atualização. Tente novamente.',
+  mandatoryInstallFailed: 'A atualização não foi instalada. Verifique as tarefas novamente e tente de novo.',
+  mandatoryOpenHelp: 'Se a página não abriu, você pode',
+  mandatoryReopen: 'Abrir a página de download novamente',
+  mandatoryCopied: 'Link copiado',
+  mandatoryCopyFailed: 'Falha ao copiar. Selecione e copie o endereço abaixo manualmente.',
+  mandatoryAddress: 'Endereço de download',
+  mandatoryNotification: 'Volte ao aplicativo para confirmar a instalação e reiniciar.',
+} as const satisfies DesktopMessages
+
 /** Locale payload exposed to the Desktop-owned renderer. */
 export interface DesktopLocale {
-  readonly id: 'en' | 'zh-CN'
+  readonly id: 'en' | 'zh-CN' | 'pt-BR'
   readonly messages: DesktopMessages
 }
 
 /** Resolve Electron's locale to one shipped Desktop dictionary. */
 export function resolveDesktopLocale(locale: string): DesktopLocale {
-  return locale.toLowerCase().startsWith('zh')
-    ? { id: 'zh-CN', messages: zh }
-    : { id: 'en', messages: en }
+  const language = locale.toLowerCase()
+  if (language.startsWith('zh')) return { id: 'zh-CN', messages: zh }
+  if (language.startsWith('pt')) return { id: 'pt-BR', messages: ptBR }
+  return { id: 'en', messages: en }
 }
 
 /** Replace named placeholders in one locale-owned message. */

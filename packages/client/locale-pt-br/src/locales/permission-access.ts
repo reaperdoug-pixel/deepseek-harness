@@ -1,0 +1,20 @@
+/** pt-BR dictionary for the `permission.access` namespace. */
+export const ptBR = {
+  'mode': 'Modo de acesso, atual: {name}',
+  'close': 'Fechar',
+  'preset.readOnly': 'Somente leitura',
+  'preset.workspaceWrite': 'Gravação no workspace',
+  'preset.fullAccess': 'Acesso total',
+  'confirm.title': 'Ativar o Acesso total?',
+  'confirm.description': 'O Acesso total reduz as etapas de confirmação e permite que o agente execute mais ações diretamente, incluindo operações sensíveis, alterações em arquivos ou comandos externos. Use-o apenas se confiar na tarefa atual.',
+  'confirm.acknowledge': 'Entendo os riscos e quero continuar',
+  'confirm.cancel': 'Cancelar',
+  'confirm.enable': 'Ativar Acesso total',
+  'auto.label': 'Revisão automática',
+  'auto.badge': 'EXP',
+  'auto.description': 'Executa sem sandbox após uma revisão experimental, feita pelo mesmo modelo, de cada chamada de ferramenta nativa e de cada chamada interna de PTC.',
+  'auto.confirm.title': 'Ativar a Revisão automática (experimental)?',
+  'auto.confirm.description': 'A Revisão automática é executada sem sandbox. Antes de cada chamada de ferramenta nativa e de cada chamada interna de PTC, o mesmo modelo do agente atual avalia se ela deve ser permitida. Este recurso é experimental, pode permitir ou negar ações por engano e consome tokens adicionais.',
+  'auto.confirm.acknowledge': 'Entendo esses riscos e quero continuar',
+  'auto.confirm.enable': 'Ativar Revisão automática',
+} as const satisfies Record<string, string>

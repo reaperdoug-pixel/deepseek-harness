@@ -204,6 +204,10 @@
     - id: locale
       name: '@deepseek-ai/dsh-client-locale'
 
+    # Brazilian Portuguese language pack: extends the locale catalog.
+    - id: locale-pt-br
+      name: '@deepseek-ai/dsh-client-locale-pt-br'
+
     - id: ui-layout
       name: '@deepseek-ai/dsh-client-ui-layout'
 

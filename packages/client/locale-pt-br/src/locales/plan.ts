@@ -1,0 +1,22 @@
+/** pt-BR dictionary for the `plan` namespace. */
+export const ptBR = {
+  'chip.label': 'Plano',
+  'preview.title': 'Plano',
+  'preview.document': 'Plano · Markdown',
+  'preview.action': 'Abrir',
+  'preview.open': 'Abrir plano na barra lateral',
+  'preview.full': 'Ver plano completo',
+  'preview.openNamed': 'Abrir plano: {title}',
+  'preview.loading': 'Carregando plano…',
+  'preview.failed': 'Não foi possível carregar o plano',
+  'preview.invalidAddress': 'Endereço de plano inválido',
+  'preview.historyUnavailable': 'O histórico da sessão está indisponível',
+  'preview.notFound': 'Este plano não foi encontrado',
+  'preview.unavailable': 'A pré-visualização do plano está indisponível',
+  'preview.expired': 'Esta pré-visualização temporária do plano expirou. Reabra-a pelo cartão de revisão pendente.',
+  'chip.on.aria': 'Modo de plano ativado, pressione para desativar',
+  'chip.on.title': 'Modo de plano ativado — clique para desativar (/plan off)',
+  'chip.off.aria': 'Modo de plano desativado, pressione para ativar',
+  'chip.off.title': 'Modo de plano desativado — clique para ativar (/plan)',
+  'chip.exitFailed': 'Falha ao sair do modo de plano',
+} as const satisfies Record<string, string>

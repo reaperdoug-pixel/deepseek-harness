@@ -1,0 +1,20 @@
+/** pt-BR dictionary for the `sidebarOffice` namespace. */
+export const ptBR = {
+  'title': 'Documento do Office',
+  'loading': 'Lendo…',
+  'retry': 'Tentar novamente',
+  'missingFonts': 'As fontes usadas neste documento estão indisponíveis: {fonts}. O texto e o layout podem ser diferentes.',
+  'showMore': 'Mostrar mais',
+  'dismissNotice': 'Dispensar o aviso de fontes',
+  'missingFontsTitle': 'Fontes ausentes',
+  'missingFontsDescription': 'Estas fontes estão indisponíveis nesta pré-visualização. O texto e o layout podem ser diferentes do documento original.',
+  'missingFontsCount': 'Fontes: {count}',
+  'closeDetails': 'Fechar detalhes das fontes',
+  'unavailable': 'As pré-visualizações do Office estão indisponíveis. Ative o serviço de pré-visualização de documentos no computador que executa o DeepSeek Harness.',
+  'invalid': 'Este arquivo do Office não pode ser pré-visualizado. Ele pode estar danificado, protegido por senha ou ter a extensão errada.',
+  'tooLarge': 'O arquivo do Office ou o PDF convertido excede o limite de tamanho da pré-visualização. Reduza o tamanho do arquivo ou ajuste a configuração da pré-visualização.',
+  'failed': 'A conversão do Office não gerou um PDF utilizável. Verifique o arquivo e tente novamente.',
+  'timeout': 'A conversão do Office excedeu o tempo limite. Tente novamente.',
+  'busy': 'A pré-visualização do Office está ocupada. Tente novamente em instantes.',
+  'changed': 'O arquivo foi alterado durante a leitura. Reabra a pré-visualização.',
+} as const satisfies Record<string, string>

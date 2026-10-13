@@ -1,0 +1,21 @@
+/** pt-BR dictionary for the `workflowRun` namespace. */
+export const ptBR = {
+  'run.title': '{name}',
+  'run.members.one': '{count} membro',
+  'run.members.other': '{count} membros',
+  'run.empty': 'Nenhum membro iniciado',
+  'phase.unassigned': 'Sem fase',
+  'phase.empty': 'Nome da fase vazio',
+  'statusCount.running': 'Em execução {count}',
+  'statusCount.completed': 'Concluídos {count}',
+  'statusCount.failed': 'Com falha {count}',
+  'statusCount.cancelled': 'Cancelados {count}',
+  'statusCount.interrupted': 'Interrompidos {count}',
+  'member.empty': 'Nome do membro vazio',
+  'member.open': 'Abrir {name}',
+  'status.running': 'Em execução',
+  'status.completed': 'Concluído',
+  'status.failed': 'Falhou',
+  'status.cancelled': 'Cancelado',
+  'status.interrupted': 'Interrompido',
+} as const satisfies Record<string, string>

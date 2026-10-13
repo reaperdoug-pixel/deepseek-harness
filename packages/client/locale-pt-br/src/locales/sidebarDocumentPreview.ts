@@ -1,0 +1,22 @@
+/** pt-BR dictionary for the `sidebarDocumentPreview` namespace. */
+export const ptBR = {
+  'loading': 'Lendo…',
+  'loadMore': 'Carregar mais',
+  'changed': 'O arquivo foi alterado; exibindo o conteúdo anterior.',
+  'reloadNow': 'Recarregar',
+  'reload': 'Ler o arquivo novamente',
+  'wrap.enable': 'Ativar quebra de linha',
+  'wrap.disable': 'Desativar quebra de linha',
+  'wrap.aria': 'Quebra de linha',
+  'openWith': 'Abrir com',
+  'viewer.text': 'Texto simples',
+  'resourceUnavailable': 'O serviço de recursos de arquivo está indisponível.',
+  'rendererUnavailable': 'A pré-visualização de {name} está indisponível.',
+  'unsupportedFile': 'A pré-visualização ainda não está disponível para este tipo de arquivo.',
+  'error.notFound': 'Arquivo não encontrado. Ele pode ter sido movido ou excluído.',
+  'error.tooLarge': 'Esta página excede o limite de {limit} e não pode ser lida.',
+  'error.notText': 'A pré-visualização ainda não está disponível para este tipo de arquivo.',
+  'error.notRegularFile': 'Não é um arquivo regular; não há nada a exibir.',
+  'error.unavailable': 'Falha na leitura: {message}',
+  'retry': 'Tentar novamente',
+} as const satisfies Record<string, string>
